@@ -4,10 +4,10 @@
 
 | Group \#:       |   |
 |-----------------|---|
-| Student Names:  |   |
-|                 |   |
-|                 |   |
-|                 |   |
+| Jay Kanabar     |   |
+| Angrew Bright   |   |
+| Jahnavi Akuri   |   |
+| Hetalben Virani |   |
 
 # Introduction
 
@@ -22,6 +22,7 @@
 # Comparison of Results
 
 # Discussion on Similarity and Differences of the Two Techniques
+
 
 # How the team work/effort was divided and managed
 
