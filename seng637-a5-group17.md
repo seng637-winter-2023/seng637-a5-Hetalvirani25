@@ -30,7 +30,25 @@ Failures are noted and displayed on the RDC during testing. The product or syste
 
 # Comparison of Results
 
+# A discussion on decision making given a target failure rate
+
+# A discussion on the advantages and disadvantages of reliability growth analysis
+A technique called reliability growth analysis is used to monitor and enhance a system's or product's reliability over time. To predict future failure rates and increase reliability, it entails gathering data on errors and the corrective measures that were done.
+
+Advantages of reliability growth analysis:
+1) Early on in the product development process, it assists in identifying and addressing potential problems, which can help save time and resources.
+2) It enables ongoing product optimisation and enhancement by monitoring failure rates over time.
+3) It offers insightful information on a system's or product's dependability, which can guide choices regarding warranties, maintenance schedules, and other crucial aspects.
+4) It can assist firms in fulfilling safety and dependability regulatory standards.
+
+Disadvantages of reliability growth analysis:
+1) The process of gathering and processing the required data can be time- and resource-consuming.
+2) To effectively evaluate the data, one must have a good level of statistical knowledge.
+3) It might not be suitable for all systems or products, especially those with extremely low failure rates or complicated failure modes.
+4) It is predicated on the idea that remedial measures will genuinely increase reliability, which may or may not be the case.
+
 # Discussion on Similarity and Differences of the Two Techniques
+
 
 
 # How the team work/effort was divided and managed
