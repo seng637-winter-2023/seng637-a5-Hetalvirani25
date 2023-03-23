@@ -79,7 +79,6 @@ Differences:
 
 # How the team work/effort was divided and managed
 
-# 
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
