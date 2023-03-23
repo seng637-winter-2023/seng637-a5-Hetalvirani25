@@ -84,3 +84,4 @@ Differences:
 # Difficulties encountered, challenges overcome, and lessons learned
 
 # Comments/feedback on the lab itself
+This lab was useful for learning about various analysis of integration test data using reliability assessment tools as well as how to use GitHub issues. The rubric/report structure offered a simple approach to structure the report, and the lab instructions were comprehensive enough to provide the team with guidance on how to finish the lab.
