@@ -5,7 +5,7 @@
 | Group \#:       |   |
 |-----------------|---|
 | Jay Kanabar     |   |
-| Angrew Bright   |   |
+| Andrew Bright   |   |
 | Jahnavi Akuri   |   |
 | Hetalben Virani |   |
 
