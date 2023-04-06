@@ -79,8 +79,14 @@ Differences:
 
 # How the team work/effort was divided and managed
 
+Microsoft Teams served as our primary means of contact, and Zoom was used for both video conversations and recording the demo. We all concentrated each and every parts in order to minimize challenges during testing as we all assisted to eachother. We later double-checked our findings and distributed the report amongst ourselves.
 
 # Difficulties encountered, challenges overcome, and lessons learned
+
+The absence of testing tools like manual testing or unit testing made this task different from the others. Instead, in order to suit failure diagrams, we must employ new technologies. It took a lot of effort to figure out how to use various tools and to discover the one that meets all of our requirements.
+
+Also, we had trouble using the RDC excel sheet. Several functionalities wouldn't function as planned. For instance, we were unable to modify the graph's limits in order to accurately capture the data points. Also, we were unable to change the limits for "Acceptance," "Continue," and "Reject." We spent a lot of effort attempting to get the antiquated and unreliable excel to function properly, but in the end, we had to hardcode the MTTFmin number in order to show it on the graph.
+
 
 # Comments/feedback on the lab itself
 This lab was useful for learning about various analysis of integration test data using reliability assessment tools as well as how to use GitHub issues. The rubric/report structure offered a simple approach to structure the report, and the lab instructions were comprehensive enough to provide the team with guidance on how to finish the lab.
