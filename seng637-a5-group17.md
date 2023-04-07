@@ -116,6 +116,8 @@ Failures are noted and displayed on the RDC during testing. The product or syste
 
 # Assessment Using Reliability Growth Testing 
 
+In the examples shown below, another dataset was used to test C-SFRAT and RDC. This dataset is J2.dat, which the file explains is timestamped in a weekly period. By evaluating the total number of failures over the provided 181 weeks, we were able to determine the MTTF.
+
 ### Initial data (J2.dat)
 ![CS_J2_1](/media/CS_J2_tab1.PNG)
 
@@ -166,6 +168,8 @@ This shows the trend when the requirement is failures happening in double the ti
 # A discussion on decision making given a target failure rate
 
 The failure rate in our dataset is approximately 0.33 failures per minute, as you can see in the last figure up top. (total failures / overall instances). According to the course lectures, achieving (the failure rate / goal failure rate) 0.5 is sufficient for product release. The system does not meet the requirement if we use 0.01 as the target failure rate because the existing failure rate is higher than this value. Yet, with a lower failure rate, we can still achieve our goal, while significant system upgrades are required. It is important to note that our model is insufficiently accurate due to the tiny size of our dataset.
+
+With the J2.dat dataset, it uses a different time scale (weekly) which makes it difficult to properly analyze. If this was converted to minutes, the failure rate would be negligible - the problem is we do not know how severe the errors were, what the consequences were, or what the error codes are. None of this was provided in the dataset, so it becomes purely speculative if our targeted error rate is sufficient. If this was a web browser where an error causes the wrong text to show once a week, it would not be a problem. However, if this was an error in a medical device that caused serious injury once a week, the failure rate would be an enormous problem.
 
 # A discussion on the advantages and disadvantages of reliability growth analysis
 A technique called reliability growth analysis is used to monitor and enhance a system's or product's reliability over time. To predict future failure rates and increase reliability, it entails gathering data on errors and the corrective measures that were done.
