@@ -65,6 +65,12 @@ This shows the trend when the requirement is failures happening in double the ti
 
 # Comparison of Results
 
+- The time between failures is getting longer near the end of the data range, which suggests the reliability is getting better. But, in RDC, the cumulative data region denotes the dependability factor, i.e., the SUT is acceptable/reject/continue, based on the MTTF value.
+- Also, we could forecast the system's dependability for the minutes to come, which the RDC technique cannot do.
+- Due to the short dataset, RDC is more trustworthy than reliability growth analysis.
+- The RDC method decides whether or not this programme is reliable, accepts or rejects the current system, or needs more data to decide. It works similarly to a classification problem. Nonetheless, reliability growth testing functions somewhat similarly to a regression problem in that it forecasts future reliability, failure rate, and duration between failures.
+- With the use of the reliability growth study, we discovered that the present failure rate, which is around 0.33 per minute, is unacceptable when compared to the desired failure rate of 0.01. If the trend continues, we could forecast when we would attain this goal. Contrarily, RDC performs this computation on its own behalf using the risk inputs (Developer's Risk and Users Risk) that we provide to the system.
+- 
 # A discussion on decision making given a target failure rate
 
 # A discussion on the advantages and disadvantages of reliability growth analysis
