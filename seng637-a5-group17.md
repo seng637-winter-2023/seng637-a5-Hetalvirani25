@@ -70,8 +70,10 @@ This shows the trend when the requirement is failures happening in double the ti
 - Due to the short dataset, RDC is more trustworthy than reliability growth analysis.
 - The RDC method decides whether or not this programme is reliable, accepts or rejects the current system, or needs more data to decide. It works similarly to a classification problem. Nonetheless, reliability growth testing functions somewhat similarly to a regression problem in that it forecasts future reliability, failure rate, and duration between failures.
 - With the use of the reliability growth study, we discovered that the present failure rate, which is around 0.33 per minute, is unacceptable when compared to the desired failure rate of 0.01. If the trend continues, we could forecast when we would attain this goal. Contrarily, RDC performs this computation on its own behalf using the risk inputs (Developer's Risk and Users Risk) that we provide to the system.
-- 
+
 # A discussion on decision making given a target failure rate
+
+The failure rate in our dataset is approximately 0.33 failures per minute, as you can see in the last figure up top. (total failures / overall instances). According to the course lectures, achieving (the failure rate / goal failure rate) 0.5 is sufficient for product release. The system does not meet the requirement if we use 0.01 as the target failure rate because the existing failure rate is higher than this value. Yet, with a lower failure rate, we can still achieve our goal, while significant system upgrades are required. It is important to note that our model is insufficiently accurate due to the tiny size of our dataset.
 
 # A discussion on the advantages and disadvantages of reliability growth analysis
 A technique called reliability growth analysis is used to monitor and enhance a system's or product's reliability over time. To predict future failure rates and increase reliability, it entails gathering data on errors and the corrective measures that were done.
