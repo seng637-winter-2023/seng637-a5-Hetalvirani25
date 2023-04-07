@@ -24,12 +24,12 @@ The methodology is applied to crucial subsystems within a larger system in the c
 
 The C-SFRAT provides various models with Accuracy,Bias,Moise and Trend Analysis 
 
-Geometric 
-Jelinski/Moranda De-Eutrophication 
-Littlewood and Varral's Bayesian Reliability
-John Musa's Basic Exceution Time
-John Musa's Logarithmic Poisson
-Non-homogeneous Poisson 
+* Geometric 
+* Jelinski/Moranda De-Eutrophication 
+* Littlewood and Varral's Bayesian Reliability
+* John Musa's Basic Exceution Time
+* John Musa's Logarithmic Poisson
+* Non-homogeneous Poisson 
 
 
 ### **Geometric Model**
@@ -43,28 +43,54 @@ This model shows the accept ,reject and failure data based on the given range of
 ### **Jelinski/Moranda De-Eutrophication**
 This model throws Java.lang.Exception as shown below
 
-![plot](/media/geometric_model.png)
+![plot](/media/jelinski.png)
 
 ### **John Musa's Basic Exceution Time**
 This model throws Java.lang.UnsatisifiedLinkError as shown below
 
-![plot](/media/geometric_model.png)
+![plot](/media/john_musa.png)
 
 
 ### **John Musa's Logarithmic Poisson**
 This method throws java.lang.NullPointerException as shown below
 
-![plot](/media/geometric_model.png)
+![plot](/media/john_musa_log_poisson.png)
 
 ## **Effect of Start and End index values on Model_result,Accuracy and Prediction Results**
 
-Executing the models with Default start and end indices (14,28)
 
-![plot](/media/geometric_model.png)
+## **Default start and end indices (14,28)**
 
-Exceuting the models with customized start and end indices (20,30)
+![plot](/media/default_index.png)
 
-![plot](/media/geometric_model.png)
+### **Model_result**
+
+![plot](/media/default_model_result.png)
+
+### **Accuracy_result**
+
+![plot](/media/default_analysis.png)
+
+### **Prediction_result**
+
+![plot](/media/default_prediction.png)
+
+
+## **customized start and end indices (20,30)**
+
+![plot](/media/chnaged_index.png)
+
+### **Model_result**
+
+![plot](/media/chnaged_model_results.png)
+
+### **Accuracy_result**
+
+![plot](/media/chnaged_analysis.png)
+
+### **Prediction_result**
+
+![plot](/media/chnaged_prediction.png)
 
  To conclude,Geometric model suits well for the given data in comparison to other models
 
