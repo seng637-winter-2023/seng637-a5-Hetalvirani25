@@ -129,6 +129,6 @@ This lab was useful for learning about various analysis of integration test data
 
 Unfortunately, all of the tools and information in the lab were extremely outdated which contributed to an enormous amount of difficulties for our team, none of which offered useful or practical experience in the end. They were frustrating to fix, wasted time, and ultimately should have been addressed and fixed before this lab was assigned to students. With much of the software, new computer platforms and data formats were completely unsuppoted, as one macOS user in the group found out. The time spent on these roadblocks could have been spent on testing and designing software instead, or learning newer frameworks which are relevant in the workplace.
 
-![old](/media/cutting_edge.PNG)
+![old](/media/cutting%20edge.PNG)
 
 As seen above, the provided data is older than many enrolled students.
