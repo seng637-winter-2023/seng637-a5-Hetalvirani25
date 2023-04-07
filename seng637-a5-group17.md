@@ -38,6 +38,21 @@ This model shows the accept ,reject and failure data based on the given range of
 
 ![plot](/media/geometric_model.png)
 
+### **Accept,Reject and Failure Data**
+
+![plot](/media/accept_reject_null.png)
+
+### **Accept and Failure Data**
+
+![plot](/media/accept_null.png)
+
+### **Only Failure Data**
+
+![plot](/media/failure_data.png)
+
+
+
+
 
 
 ### **Jelinski/Moranda De-Eutrophication**
@@ -56,7 +71,7 @@ This method throws java.lang.NullPointerException as shown below
 
 ![plot](/media/john_musa_log_poisson.png)
 
-## **Effect of Start and End index values on Model_result,Accuracy and Prediction Results**
+### **Effect of Start and End index values on Model_result,Accuracy and Prediction Results**
 
 
 ## **Default start and end indices (14,28)**
@@ -73,7 +88,7 @@ This method throws java.lang.NullPointerException as shown below
 
 ### **Prediction_result**
 
-![plot](/media/default_prediction.png)
+![plot](/media/default_predection.png)
 
 
 ## **customized start and end indices (20,30)**
