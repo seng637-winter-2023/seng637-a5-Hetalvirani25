@@ -33,7 +33,7 @@ The C-SFRAT provides various models with Accuracy,Bias,Moise and Trend Analysis
 
 
 ### **Geometric Model**
-This model shows the accept ,reject and failure data based on the given range of Discrimation ratio,Customer risk,Developer risk values.
+This model shows the accept ,reject and failure data based on the given range of Discrimination ratio,Customer risk,Developer risk values.
 
 
 ![plot](/media/geometric_model.png)
