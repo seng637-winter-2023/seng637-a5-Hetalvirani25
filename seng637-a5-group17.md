@@ -30,8 +30,10 @@ John Musa's Logarithmic Poisson
 Non-homogeneous Poisson 
 
 
-**Geometric Model**
+** ### Geometric Model**
 This model shows the accept ,reject and failure data based on the given range of Discrimation ratio,Customer risk,Developer risk values.
+
+
 ![plot](/media/geometric_model.png)
 
 
