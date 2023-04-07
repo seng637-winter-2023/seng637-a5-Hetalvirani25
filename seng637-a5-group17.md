@@ -19,7 +19,9 @@ The methodology is applied to crucial subsystems within a larger system in the c
 
 
 
-**Models in C-SFRAT**
+# **Models in C-SFRAT**
+
+
 The C-SFRAT provides various models with Accuracy,Bias,Moise and Trend Analysis 
 
 Geometric 
@@ -38,22 +40,31 @@ This model shows the accept ,reject and failure data based on the given range of
 
 
 
-**Jelinski/Moranda De-Eutrophication**
+### **Jelinski/Moranda De-Eutrophication**
 This model throws Java.lang.Exception as shown below
 
+![plot](/media/geometric_model.png)
 
-**John Musa's Basic Exceution Time**
+### **John Musa's Basic Exceution Time**
 This model throws Java.lang.UnsatisifiedLinkError as shown below
 
+![plot](/media/geometric_model.png)
 
-**John Musa's Logarithmic Poisson**
+
+### **John Musa's Logarithmic Poisson**
 This method throws java.lang.NullPointerException as shown below
 
-**Effect of Start and End index values on Model_result,Accuracy and Prediction Results**
+![plot](/media/geometric_model.png)
+
+## **Effect of Start and End index values on Model_result,Accuracy and Prediction Results**
 
 Executing the models with Default start and end indices (14,28)
 
+![plot](/media/geometric_model.png)
+
 Exceuting the models with customized start and end indices (20,30)
+
+![plot](/media/geometric_model.png)
 
  To conclude,Geometric model suits well for the given data in comparison to other models
 
