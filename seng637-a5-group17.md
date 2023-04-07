@@ -32,7 +32,7 @@ Non-homogeneous Poisson
 
 **Geometric Model**
 This model shows the accept ,reject and failure data based on the given range of Discrimation ratio,Customer risk,Developer risk values.
-![ping](/media/geometric_model.PNG)
+![plot](/media/geometric_model.PNG)
 
 
 
