@@ -31,12 +31,22 @@ Failures are noted and displayed on the RDC during testing. The product or syste
 ![CS_J2_1](/media/CS_J2_tab1_int.PNG)
 
 ### Model evaluation (J2.dat)
+As seen below, the Discrete Weibull Type III (DW3) model fits our given data the best.
 ![CS_J2_1](/media/CS_J2_tab2.PNG)
 
 ### Model evaluation (J2.dat) intensity view
+Compared to the previous view, the Discrete Weibull Type III (DW3) model matches the peaks the best. This shows it is still the best model when evaluated in the intensity view.
 ![CS_J2_1](/media/CS_J2_tab2_int.PNG)
 
 ### Model comparisons (J2.dat)
+The numerical values concur with the visual conclusions in the previous images. As seen in the table, the DW3 model has:
+
+- lowest log likelihood
+- lowest AIC, BIC, SSE
+- highest critic (mean, median)
+
+This once again shows that the DW3 model is the best fit for the J2.dat file.
+
 ![CS_J2_3](/media/CS_J2_tab3.PNG)
 
 # Assessment Using Reliability Demonstration Chart 
@@ -117,4 +127,8 @@ Overall, 3 of the 4 provided tools did not work. The RDC tool in particular was 
 # Comments/feedback on the lab itself
 This lab was useful for learning about various analysis of integration test data using reliability assessment tools as well as how to use GitHub issues. The rubric/report structure offered a simple approach to structure the report, and the lab instructions were comprehensive enough to provide the team with guidance on how to finish the lab.
 
-Unfortunately, all of the tools and information in the lab were extremely outdated which contributed to an enormous amount of difficulties for our team, none of which offered useful or practical experience in the end. They were frustrating to fix, wasted time, and ultimately should have been addressed and fixed before this lab was assigned to students. The time spent on these roadblocks could have been spent on testing and designing software instead, or learning newer frameworks which are relevant in the workplace.
+Unfortunately, all of the tools and information in the lab were extremely outdated which contributed to an enormous amount of difficulties for our team, none of which offered useful or practical experience in the end. They were frustrating to fix, wasted time, and ultimately should have been addressed and fixed before this lab was assigned to students. With much of the software, new computer platforms and data formats were completely unsuppoted, as one macOS user in the group found out. The time spent on these roadblocks could have been spent on testing and designing software instead, or learning newer frameworks which are relevant in the workplace.
+
+![old](/media/cutting_edge.PNG)
+
+As seen above, the provided data is older than many enrolled students.
