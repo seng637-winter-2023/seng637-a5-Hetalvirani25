@@ -17,6 +17,42 @@ The purpose of this lab is to explore the different analysis of integration test
 By testing and analysis, reliability growth testing helps to increase a system's dependability. Testing for reliability growth aims to find and remove failure-causing factors while also raising the system's overall reliability.
 The methodology is applied to crucial subsystems within a larger system in the context of C-SFRAT reliability growth testing, using fault-tree analysis to identify possible failures and their causes. Then, these subsystems are tested and made more reliable using the reliability growth testing procedure.
 
+
+
+**##Models in C-SFRAT**
+The C-SFRAT provides various models with Accuracy,Bias,Moise and Trend Analysis 
+
+Geometric 
+Jelinski/Moranda De-Eutrophication 
+Littlewood and Varral's Bayesian Reliability
+John Musa's Basic Exceution Time
+John Musa's Logarithmic Poisson
+Non-homogeneous Poisson 
+
+
+**##Geometric Model**
+This model shows the accept ,reject and failure data based on the given range of Discrimation ratio,Customer risk,Developer risk values.
+
+
+**##Jelinski/Moranda De-Eutrophication**
+This model throws Java.lang.Exception as shown below
+
+
+**##John Musa's Basic Exceution Time**
+This model throws Java.lang.UnsatisifiedLinkError as shown below
+
+
+**##John Musa's Logarithmic Poisson**
+This method throws java.lang.NullPointerException as shown below
+
+**##Effect of Start and End index values on Model_result,Accuracy and Prediction Results**
+
+Executing the models with Default start and end indices (14,28)
+
+Exceuting the models with customized start and end indices (20,30)
+
+ To conclude,Geometric model suits well for the given data in comparison to other models
+
 2) Reliability assessment using Reliability Demonstration Chart (RDC)
 A graphical tool called a reliability demonstration chart (RDC) is used in reliability engineering to show that a system or product satisfies a given reliability criterion. During reliability testing, the RDC is utilised to monitor the frequency of failures over time and to contrast the observed failure rate with the desired failure rate.
 The RDC normally consists of a graph with two axes: the horizontal axis displays the cumulative test time or test unit count, and the vertical axis displays the cumulative number of failures. The reliability requirement line, which represents the required dependability level as a horizontal line on the graph, is also included.
