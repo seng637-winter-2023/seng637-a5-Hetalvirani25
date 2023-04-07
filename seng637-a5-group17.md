@@ -24,9 +24,44 @@ Failures are noted and displayed on the RDC during testing. The product or syste
 
 # Assessment Using Reliability Growth Testing 
 
+### Initial data (J2.dat)
+![CS_J2_1](/media/CS_J2_tab1.PNG)
+
+### Initial data (J2.dat) intensity view
+![CS_J2_1](/media/CS_J2_tab1_int.PNG)
+
+### Model evaluation (J2.dat)
+As seen below, the Discrete Weibull Type III (DW3) model fits our given data the best.
+![CS_J2_1](/media/CS_J2_tab2.PNG)
+
+### Model evaluation (J2.dat) intensity view
+Compared to the previous view, the Discrete Weibull Type III (DW3) model matches the peaks the best. This shows it is still the best model when evaluated in the intensity view.
+![CS_J2_1](/media/CS_J2_tab2_int.PNG)
+
+### Model comparisons (J2.dat)
+The numerical values concur with the visual conclusions in the previous images. As seen in the table, the DW3 model has:
+
+- lowest log likelihood
+- lowest AIC, BIC, SSE
+- highest critic (mean, median)
+
+This once again shows that the DW3 model is the best fit for the J2.dat file.
+
+![CS_J2_3](/media/CS_J2_tab3.PNG)
+
 # Assessment Using Reliability Demonstration Chart 
 
-# 
+### MTTF_min value for J2.dat
+This represents the minimum "mean time to failure" and how the tested data passes
+![MTTF min](/media/G17_MTTF_min.PNG)
+
+### Half MTTF_min value for J2.dat
+This shows the trend when the requirement is failures happening in half the time (twice as often) which means the requirement is much looser, and worse software will pass. This is shown by the large green zone.
+![MTTF min half](/media/G17_MTTF_min_half.PNG)
+
+### Double MTTF_min value for J2.dat
+This shows the trend when the requirement is failures happening in double the time (half as often) which means the requirement is much tighter, and only better software will pass. This is shown by the large red zone which our tested data falls inside.
+![MTTF min double](/media/G17_MTTF_min_double.PNG)
 
 # Comparison of Results
 
@@ -83,10 +118,17 @@ Microsoft Teams served as our primary means of contact, and Zoom was used for bo
 
 # Difficulties encountered, challenges overcome, and lessons learned
 
-The absence of testing tools like manual testing or unit testing made this task different from the others. Instead, in order to suit failure diagrams, we must employ new technologies. It took a lot of effort to figure out how to use various tools and to discover the one that meets all of our requirements.
+The absence of testing tools like manual testing or unit testing made this task different from other labs. Instead, in order to suit failure diagrams, we must employ new technologies. It took a lot of effort to figure out how to use various tools and to discover the one that meets all of our requirements.
 
-Also, we had trouble using the RDC excel sheet. Several functionalities wouldn't function as planned. For instance, we were unable to modify the graph's limits in order to accurately capture the data points. Also, we were unable to change the limits for "Acceptance," "Continue," and "Reject." We spent a lot of effort attempting to get the antiquated and unreliable excel to function properly, but in the end, we had to hardcode the MTTFmin number in order to show it on the graph.
+We had trouble using the RDC excel sheet. Several functionalities wouldn't function as planned. For instance, we were unable to modify the graph's limits in order to accurately capture the data points. Also, we were unable to change the limits for "Acceptance," "Continue," and "Reject." We spent a lot of effort attempting to get the antiquated and unreliable excel to function properly, but in the end, we had to hardcode the MTTFmin number in order to show it on the graph.
 
+Overall, 3 of the 4 provided tools did not work. The RDC tool in particular was very bad, and the structure of the excel sheet suggests it had been abandoned long before this lab was assigned. Many of the cells were hardcoded and unexplained values which made it impossible to graph our data without completely overhauling the structure of several sheets. Even after doing so, the logical links between items were incorrect and made it extremely difficult and tedious to accomplish the lab tasks.
 
 # Comments/feedback on the lab itself
 This lab was useful for learning about various analysis of integration test data using reliability assessment tools as well as how to use GitHub issues. The rubric/report structure offered a simple approach to structure the report, and the lab instructions were comprehensive enough to provide the team with guidance on how to finish the lab.
+
+Unfortunately, all of the tools and information in the lab were extremely outdated which contributed to an enormous amount of difficulties for our team, none of which offered useful or practical experience in the end. They were frustrating to fix, wasted time, and ultimately should have been addressed and fixed before this lab was assigned to students. With much of the software, new computer platforms and data formats were completely unsuppoted, as one macOS user in the group found out. The time spent on these roadblocks could have been spent on testing and designing software instead, or learning newer frameworks which are relevant in the workplace.
+
+![old](/media/cutting_edge.PNG)
+
+As seen above, the provided data is older than many enrolled students.
