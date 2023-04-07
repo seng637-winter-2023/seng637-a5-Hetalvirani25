@@ -19,7 +19,7 @@ The methodology is applied to crucial subsystems within a larger system in the c
 
 
 
-**##Models in C-SFRAT**
+**Models in C-SFRAT**
 The C-SFRAT provides various models with Accuracy,Bias,Moise and Trend Analysis 
 
 Geometric 
@@ -30,22 +30,24 @@ John Musa's Logarithmic Poisson
 Non-homogeneous Poisson 
 
 
-**##Geometric Model**
+**Geometric Model**
 This model shows the accept ,reject and failure data based on the given range of Discrimation ratio,Customer risk,Developer risk values.
+![geometric_model](/media/geometric_model.PNG)
 
 
-**##Jelinski/Moranda De-Eutrophication**
+
+**Jelinski/Moranda De-Eutrophication**
 This model throws Java.lang.Exception as shown below
 
 
-**##John Musa's Basic Exceution Time**
+**John Musa's Basic Exceution Time**
 This model throws Java.lang.UnsatisifiedLinkError as shown below
 
 
-**##John Musa's Logarithmic Poisson**
+**John Musa's Logarithmic Poisson**
 This method throws java.lang.NullPointerException as shown below
 
-**##Effect of Start and End index values on Model_result,Accuracy and Prediction Results**
+**Effect of Start and End index values on Model_result,Accuracy and Prediction Results**
 
 Executing the models with Default start and end indices (14,28)
 
