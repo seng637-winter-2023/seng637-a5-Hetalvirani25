@@ -4,3 +4,6 @@
 # Guideline
 - read [assignment guideline](./seng637-a5.md) 
 - commit and push output ([assignment output template](./seng637-a5-team_number.md))
+
+# [Video Demo Link](https://uofc-my.sharepoint.com/:v:/g/personal/andrew_bright_ucalgary_ca/EYqnSZ4J2-VJia8XRFpryZUBYQD0X_tKw6pvPArY_8crKA?e=VYpaCd)
+(Note: requires ucalgary.ca account to view)
